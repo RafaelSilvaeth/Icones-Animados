@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 20px;
+    background: #271380;
+}
+
+.box {
+    width: 70px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px ;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.box:hover {
+    width: 200px;
+    background:#4169E1;
+    border-radius: 30px;
+    color: #fff;
+    box-shadow: 0 0 50px #00BFFF;
+}
+
+.box:nth-child(2):hover {
+    background: #000000;
+    box-shadow: 0 0 50px #fff;
+}
+
+.box:nth-child(3):hover {
+    background: #1E90FF;
+    box-shadow: 0 0 50px #00BFFF;
+}
+
+.box:nth-child(4):hover {
+    background: #2c2c;
+    box-shadow: 0 0 50px #00FF00;
+}
+
+.navbar p {
+    transform: translate(60px);
+    margin-left: 5px;
+}
+
+.box .icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+
+.Linkedin { 
+    background-color: #00BFFF;
+}
+
+.github { 
+    background-color: #2c2c2c;
+}
+
+.twitter { 
+    background-color: #00BFFF;
+}
+
+.whatsapp { 
+    background-color: #2c2c;
+}
+
+.box:hover .icon {
+    background: #fff;
+    color: #3b3b3b;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
